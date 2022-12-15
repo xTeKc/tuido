@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  db: 
+    image: surrealdb/surrealdb
+    environment:
+      SURREALDB_PASSWORD: pass123
+    ports:
+      - 8000:8000

@@ -9,11 +9,13 @@ axum = { version = "0.6.1", features = ["macros", "headers"] }
 bcrypt = "0.13.0"
 chrono = { version = "0.4.23", features = ["serde"] }
 crossterm = { version = "0.25.0", features = ["serde"] }
+ctrlc = { version = "3.2.4", features = ["termination"] }
 futures = "0.3.25"
+libc = "0.2.138"
+ncurses = "5.101.0"
 sea-orm = { version = "0.10.5", features = ["sqlx-postgres", "runtime-tokio-rustls"] }
 serde_json = "1.0.91"
 serde_with = "2.1.0"
 thiserror = "1.0.38"
 tokio = { version = "1.23.0", features = ["macros", "rt-multi-thread"] }
-tui = "0.19.0"
 validator = { version = "0.16.0", features = ["derive"] }

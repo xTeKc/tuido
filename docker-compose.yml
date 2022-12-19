@@ -1,9 +1,9 @@
 version: "3.8"
 
 services:
-  db: 
-    image: surrealdb/surrealdb
+  db:
+    image: postgres
     environment:
-      SURREALDB_PASSWORD: pass123
+      POSTGRES_PASSWORD: pass1234
     ports:
-      - 8000:8000
+      - 7878:5432
